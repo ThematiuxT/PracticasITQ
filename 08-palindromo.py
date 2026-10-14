@@ -7,7 +7,6 @@ es_palindromo = True
 for i in range(len(st)):
     es_palindromo = es_palindromo and (st[i] == listaRevez[i])
 
-
 if es_palindromo:
     print("Es palindromo")
 else:
